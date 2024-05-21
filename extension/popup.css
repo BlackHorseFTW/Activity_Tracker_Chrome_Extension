@@ -1,0 +1,98 @@
+body {
+    margin: 0%;
+    background-color: #000000;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    align-items: center;
+    font-family: Roboto Mono;
+  }
+  
+  #display{
+    color: #45a049;
+    margin: 0%;
+    font-size: 70px;
+    font-family: Major Mono Display;
+  }
+
+ div{
+    color: antiquewhite;
+    font-family: Roboto Mono;
+    width: 50%;
+} 
+
+  #website{
+    font-size: 15px;
+    font-weight: 200;
+    width: 10%;
+    border-right: 20px;
+  }
+
+  h2 {
+    font-family: Roboto Mono;
+    color:#45a049;
+    font-weight: 100;
+    margin: 0%;
+  }
+  
+  #newSiteInput {
+    margin: 0%;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  #addSiteButton {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Roboto Mono;
+  }
+  
+  #addSiteButton:hover {
+    background-color: #45a049;
+  }
+  
+  #restrictedSitesList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #restrictedSitesList li {
+    margin-bottom: 5px;
+  }
+  
+  #restrictedSitesList li:hover {
+    background-color: #f2f2f2;
+  }
+
+  #totalTimeSpent{
+    font-family: Roboto Mono;
+    color: antiquewhite;
+  }
+
+  #timeSpent{
+    font-family: Roboto Mono;
+    color: antiquewhite;
+  }
+  
+  #timeInput{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #setTimeLimitButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #restrictedSitesList{
+    margin-top: 15px;
+  }
